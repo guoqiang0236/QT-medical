@@ -1,0 +1,7 @@
+﻿  Automatic MOC for target QtGuiApp
+  Building Custom Rule E:/workspace/medical_image_qt/QtGuiApp/CMakeLists.txt
+  mocs_compilation_Debug.cpp
+  MainWindow.cpp
+  main.cpp
+  正在生成代码...
+  QtGuiApp.vcxproj -> E:\workspace\medical_image_qt\build\QtGuiApp\Debug\QtGuiApp.exe

@@ -1,0 +1,10 @@
+^E:\WORKSPACE\MEDICAL_IMAGE_QT\BUILD\CMAKEFILES\D7EA04E85D694FDD9A83C5C816F486BF\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/workspace/medical_image_qt -BE:/workspace/medical_image_qt/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/workspace/medical_image_qt/build/med_img_factory.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

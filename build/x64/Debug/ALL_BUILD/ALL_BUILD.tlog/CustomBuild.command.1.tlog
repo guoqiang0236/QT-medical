@@ -1,0 +1,10 @@
+^E:\WORKSPACE\MEDICAL_IMAGE_QT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/workspace/medical_image_qt -BE:/workspace/medical_image_qt/build --check-stamp-file E:/workspace/medical_image_qt/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
